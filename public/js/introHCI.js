@@ -35,8 +35,8 @@ function addProjectDetails(e) {
 }
 
 function addProject(result) {
-  var projectHTML = 'class="thumbnail">' +
-    '<img src="' + result['image'] + '" class="img">' +
+  var projectHTML =
+    '<img src="' + result['image'] + '" class="img thumbnail">' +
     '<p>' + result['title'] + '</p>' +
     '<p><small>' + result['date'] + result['summary'] +
     '</small></p>'; 
